@@ -67,7 +67,6 @@ function draw() {
   mango11.display();
   mango12.display();
 
-  stoneObj.display();
   groundObject.display();
   lancadorobj.display();
     
