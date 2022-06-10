@@ -1,13 +1,13 @@
 class Lancador{
-    constructor(body, pointB){
+    constructor(body, anchor){
         var options = {
             bodyA: body,
-            pointB: pointB,
+            pointB: anchor,
             stiffness: 0.004,
             length: 10
         }
         this.bodyA = body
-        this.pointB = pointB
+        this.pointB = anchor
         this.lancador = Constraint.create(options);
         World.add(world, this.lancador);
     }
