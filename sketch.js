@@ -40,7 +40,7 @@ function setup() {
 	treeObj=new tree(1050,580);
 	groundObject=new ground(width/2,600,width,20);
   //create launcherObject here
-
+	lancardorobj = new Lancador(stoneObj.body, {x:235, y:420})
 
 	Engine.run(engine);
 }
@@ -66,8 +66,6 @@ function draw() {
   mango10.display();
   mango11.display();
   mango12.display();
-
-  lancadorobj = new Lancador(stoneObj.body, {x:235, y: 420})
 
   stoneObj.display();
   groundObject.display();
