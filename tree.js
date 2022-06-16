@@ -1,4 +1,4 @@
-class tree
+class Tree
 {
 	constructor(x,y)
 	{
